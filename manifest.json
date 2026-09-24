@@ -5637,6 +5637,308 @@
       ],
       "ast": [
         "aggregate/ast/c8b37eb2eb25bb2e783da4dd10f2347c0635727c/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c8b37eb2eb25bb2e783da4dd10f2347c0635727c.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "oxigraph",
+          "ecosystem": "CARGO",
+          "version": "0.5.6",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubCommit": "45e892308368d8b2c271d06dc04de17dfb6de80f",
+          "githubTag": "v0.5.6",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/main/lib/oxigraph",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "usearch",
+          "ecosystem": "CARGO",
+          "version": "2.25",
+          "githubOrg": "unum-cloud",
+          "githubRepo": "USearch",
+          "githubUrl": "https://github.com/unum-cloud/USearch",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sha2",
+          "ecosystem": "CARGO",
+          "version": "0.10",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "hashes",
+          "githubUrl": "https://github.com/RustCrypto/hashes",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rand",
+          "ecosystem": "CARGO",
+          "version": "0.8",
+          "githubOrg": "rust-random",
+          "githubRepo": "rand",
+          "githubUrl": "https://github.com/rust-random/rand",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "anyhow",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "dtolnay",
+          "githubRepo": "anyhow",
+          "githubUrl": "https://github.com/dtolnay/anyhow",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_yaml",
+          "ecosystem": "CARGO",
+          "version": "0.9",
+          "githubOrg": "dtolnay",
+          "githubRepo": "serde-yaml",
+          "githubUrl": "https://github.com/dtolnay/serde-yaml",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "chrono",
+          "ecosystem": "CARGO",
+          "version": "0.4",
+          "githubOrg": "chronotope",
+          "githubRepo": "chrono",
+          "githubUrl": "https://github.com/chronotope/chrono",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "png",
+          "ecosystem": "CARGO",
+          "version": "0.17",
+          "githubOrg": "image-rs",
+          "githubRepo": "image-png",
+          "githubUrl": "https://github.com/image-rs/image-png",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "crc32fast",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "srijs",
+          "githubRepo": "rust-crc32fast",
+          "githubUrl": "https://github.com/srijs/rust-crc32fast",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "flate2",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "rust-lang",
+          "githubRepo": "flate2-rs",
+          "githubUrl": "https://github.com/rust-lang/flate2-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "base64",
+          "ecosystem": "CARGO",
+          "version": "0.22",
+          "githubOrg": "marshallpierce",
+          "githubRepo": "rust-base64",
+          "githubUrl": "https://github.com/marshallpierce/rust-base64",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "image",
+          "ecosystem": "CARGO",
+          "version": "0.25",
+          "githubOrg": "image-rs",
+          "githubRepo": "image",
+          "githubUrl": "https://github.com/image-rs/image",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "axum",
+          "ecosystem": "CARGO",
+          "version": "0.8",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "axum",
+          "githubUrl": "https://github.com/tokio-rs/axum",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tower-http",
+          "ecosystem": "CARGO",
+          "version": "0.6",
+          "githubOrg": "tower-rs",
+          "githubRepo": "tower-http",
+          "githubUrl": "https://github.com/tower-rs/tower-http",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing-subscriber",
+          "ecosystem": "CARGO",
+          "version": "0.3",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "utoipa",
+          "ecosystem": "CARGO",
+          "version": "5",
+          "githubOrg": "juhaku",
+          "githubRepo": "utoipa",
+          "githubUrl": "https://github.com/juhaku/utoipa",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "utoipa-swagger-ui",
+          "ecosystem": "CARGO",
+          "version": "9",
+          "githubOrg": "juhaku",
+          "githubRepo": "utoipa",
+          "githubUrl": "https://github.com/juhaku/utoipa",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "reqwest",
+          "ecosystem": "CARGO",
+          "version": "0.12",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "reqwest",
+          "githubUrl": "https://github.com/seanmonstar/reqwest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "oxrdf",
+          "ecosystem": "CARGO",
+          "version": "0.3.3",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubCommit": "c7c82c06dbaf410b5564dcf27f8744cc485b7e93",
+          "githubTag": "v0.3.3",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/main/lib/oxrdf",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdf-0.3.3/src/named_node.rs"
+        },
+        {
+          "packageName": "sparesults",
+          "ecosystem": "CARGO",
+          "version": "0.3.3",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubCommit": "c7c82c06dbaf410b5564dcf27f8744cc485b7e93",
+          "githubTag": "v0.3.3",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/main/lib/sparesults",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sparesults-0.3.3/src/solution.rs"
+        },
+        {
+          "packageName": "spareval",
+          "ecosystem": "CARGO",
+          "version": "0.2.6",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/main/lib/spareval",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/spareval-0.2.6/src/model.rs"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.4.2",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "82db5b8af1e3939678fee88f3c57b72fee7e3a7b",
+          "githubTag": "v1.4.2",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.4.2/src/status.rs"
+        },
+        {
+          "packageName": "digest",
+          "ecosystem": "CARGO",
+          "version": "0.10.7",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "traits",
+          "githubUrl": "https://github.com/RustCrypto/traits",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.10.7/src/digest.rs"
+        },
+        {
+          "packageName": "oxrdfio",
+          "ecosystem": "CARGO",
+          "version": "0.2.5",
+          "githubOrg": "oxigraph",
+          "githubRepo": "oxigraph",
+          "githubCommit": "a21dcbb4f7355d7a00a86fbc5ad2c350a53629c4",
+          "githubTag": "v0.2.5",
+          "githubUrl": "https://github.com/oxigraph/oxigraph/tree/master/lib/oxrdfxml",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/oxrdfio-0.2.5/src/parser.rs"
+        },
+        {
+          "packageName": "axum-core",
+          "ecosystem": "CARGO",
+          "version": "0.5.6",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "axum",
+          "githubUrl": "https://github.com/tokio-rs/axum",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/axum-core-0.5.6/src/response/into_response.rs"
+        },
+        {
+          "packageName": "bytes",
+          "ecosystem": "CARGO",
+          "version": "1.12.1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "bytes",
+          "githubCommit": "76c0fbb54ed4336caf9d2311658a2f4a5627c21d",
+          "githubTag": "v1.12.1",
+          "githubUrl": "https://github.com/tokio-rs/bytes",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/bytes-1.12.1/src/bytes.rs"
+        }
       ]
     }
   ],
