@@ -253,7 +253,7 @@
     {
       "@id": "https://repolex.ai/r/repolex-ai/pan/commit/42b7f8bd584a9b51c344507df1408e98e5344ae2",
       "git:hexsha": "42b7f8bd584a9b51c344507df1408e98e5344ae2",
-      "repolex:parseStatus": "metadata_complete"
+      "repolex:parseStatus": "ast_complete"
     }
   ]
 }
